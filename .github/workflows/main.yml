@@ -15,4 +15,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Sandeep84:$HF_TOKEN@huggingface.co/spaces/HF_USERNAME/Agentic_Chatbot_With_Multi_Tool_Access main
+        run: git push https://Sandeep84:$HF_TOKEN@huggingface.co/spaces/Sandeep84/Agentic_Chatbot_With_Multi_Tool_Access main
