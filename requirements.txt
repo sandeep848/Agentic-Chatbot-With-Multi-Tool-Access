@@ -1,33 +1,37 @@
-langchain
-python-dotenv
-ipykernel
-langchain-community
-pypdf
-bs4
-arxiv
-pymupdf
-wikipedia
-langchain-text-splitters
-langchain-openai
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma
-duckdb
-pandas
-openai
-langchain-groq
-duckduckgo-search
-pymupdf
-arxiv
-wikipedia
-mysql-connector-python
-SQLAlchemy
+# UI
+streamlit>=1.31.0
+
+# LangChain core (PINNED for compatibility)
+langchain==0.1.16
+langchain-core==0.1.45
+langchain-community==0.0.32
+langchain-groq==0.1.3
+langchain-text-splitters==0.0.1
+
+# LLM + embeddings (NO TensorFlow / Keras)
+sentence-transformers==2.6.1
+transformers==4.38.2
+torch>=2.0.0
+huggingface-hub>=0.20.0
+
+# Vector stores
+faiss-cpu>=1.7.4
+
+# PDF processing
+pypdf>=4.0.1
+pymupdf>=1.23.0
+
+# Web / tools
+duckduckgo-search>=4.1.1
+wikipedia>=1.4.0
+arxiv>=2.1.0
+beautifulsoup4>=4.12.0
 validators==0.28.1
-youtube_transcript_api
-unstructured
-pytube
-numexpr
-huggingface_hub
-duckduckgo-search
+youtube-transcript-api>=0.6.2
+pytube>=15.0.0
+
+# Utilities
+python-dotenv>=1.0.1
+pandas>=2.0.0
+numexpr>=2.8.7
+duckdb>=0.10.0
